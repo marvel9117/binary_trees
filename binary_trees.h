@@ -34,12 +34,15 @@ typedef struct binary_tree_s heap_t;
 void binary_tree_print(const binary_tree_t *);
 
 /**
- * * fifo_t - typedef for struct fifo_s to represent a fifo queue
- * * @node: pointer to node of binary tree
- * * @next: pointer to next element of queue
- * * @prev: pointer to previous element of queue
+ * * struct fifo_s - Structure representing a FIFO
+ * * queue node for binary tree nodes
+ * *
+ * * @node: Pointer to a node of a binary tree
+ * * @next: Pointer to the next element in the FIFO queue
+ * * @prev: Pointer to the previous element in the FIFO queue
  */
-typedef struct fifo_t
+
+typedef struct fifo_s
 {
 	const binary_tree_t *node;
 	struct fifo_s *next;
