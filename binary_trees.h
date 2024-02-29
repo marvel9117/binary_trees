@@ -36,7 +36,6 @@ typedef struct binary_tree_s heap_t;
 
 /* Printing helper function */
 void binary_tree_print(const binary_tree_t *);
-
 /**
  ** struct levelorder_queue_s - Level order traversal queue.
  ** @node: A node of a binary tree.
